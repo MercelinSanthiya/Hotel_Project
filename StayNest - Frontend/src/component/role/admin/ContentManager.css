@@ -1,0 +1,358 @@
+
+.cm-field-checkbox {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.cm-field-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--brass);
+}
+.cm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  margin-bottom: 22px;
+  flex-wrap: wrap;
+}
+
+.cm-title {
+  font-family: var(--font-display);
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 4px;
+  color: var(--text);
+}
+
+.cm-subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13.5px;
+}
+
+.cm-header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.cm-filter {
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  min-width: 200px;
+  background: var(--panel);
+}
+
+.cm-filter:focus {
+  outline: 2px solid var(--brass);
+  outline-offset: 1px;
+}
+
+.cm-add-btn {
+  padding: 9px 16px;
+  background: var(--brass);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+.cm-add-btn:hover {
+  background: #8f6f27;
+}
+
+/* ---------- Table ---------- */
+
+.cm-table-wrap {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.cm-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.cm-table th {
+  text-align: left;
+  padding: 13px 18px;
+  background: var(--paper);
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.cm-table td {
+  padding: 13px 18px;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.cm-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.cm-table tbody tr:hover {
+  background: rgba(169, 131, 46, 0.05);
+}
+
+.cm-empty {
+  text-align: center;
+  color: var(--muted);
+  padding: 32px 18px;
+  font-style: italic;
+}
+
+.cm-actions-col {
+  text-align: right;
+}
+
+.cm-link-btn {
+  background: none;
+  border: none;
+  color: var(--brass);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 6px;
+}
+
+.cm-link-btn:hover {
+  text-decoration: underline;
+}
+
+.cm-link-danger {
+  color: var(--danger);
+}
+
+
+
+.cm-status {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--brass-soft);
+  color: #6b5019;
+}
+
+.cm-status-available,
+.cm-status-open,
+.cm-status-active,
+.cm-status-live,
+.cm-status-confirmed,
+.cm-status-published {
+  background: #e2ebe0;
+  color: var(--success);
+}
+
+.cm-status-maintenance,
+.cm-status-cancelled,
+.cm-status-suspended,
+.cm-status-hidden,
+.cm-status-expired,
+.cm-status-sold-out {
+  background: #f3e0da;
+  color: var(--danger);
+}
+
+.cm-status-booked,
+.cm-status-occupied,
+.cm-status-pending {
+  background: #fbeecf;
+  color: #8a5a00;
+}
+
+.cm-status-note {
+  margin-top: 4px;
+  font-size: 11px;
+  color: var(--muted, #8a8378);
+}
+
+.cm-field-hint {
+  margin-top: -8px;
+  font-size: 11px;
+  color: var(--muted, #8a8378);
+}
+
+
+
+.cm-modal-scrim {
+  position: fixed;
+  inset: 0;
+  background: rgba(28, 27, 24, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 50;
+}
+
+.cm-modal {
+  background: var(--panel);
+  border-radius: 12px;
+  padding: 28px;
+  width: 100%;
+  max-width: 460px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.cm-modal-title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 18px;
+  text-transform: capitalize;
+}
+
+.cm-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cm-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.cm-field input,
+.cm-field select {
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 400;
+  background: var(--paper);
+}
+
+.cm-field input:focus,
+.cm-field select:focus {
+  outline: 2px solid var(--brass);
+  outline-offset: 1px;
+}
+
+.cm-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.cm-cancel-btn {
+  padding: 9px 16px;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.cm-save-btn {
+  padding: 9px 16px;
+  background: var(--brass);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cm-save-btn:hover {
+  background: #8f6f27;
+}
+
+@media (max-width: 640px) {
+  .cm-header-actions {
+    width: 100%;
+  }
+  .cm-filter {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+
+.cm-thumb {
+  width: 56px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  display: block;
+}
+
+.cm-preview {
+  margin-top: 8px;
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+
+.cm-error-banner {
+  background: #f3e0da;
+  color: var(--danger);
+  border: 1px solid #e3b8ab;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  font-size: 13.5px;
+}
+
+.cm-form-error {
+  background: #f3e0da;
+  color: var(--danger);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+}
+
+.cm-field textarea {
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 400;
+  background: var(--paper);
+  resize: vertical;
+}
+
+.cm-field input[type="file"] {
+  border: 1px dashed var(--line);
+  padding: 8px;
+  border-radius: 7px;
+  background: var(--paper);
+  font-size: 13px;
+}

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3eee000-d3eb-4ea6-83e6-9cf801adfe89" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/HotelBookingApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/config/DataSeeder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/constants/AppConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/controller/BookingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/controller/DiningController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/controller/ExperienceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/controller/OfferController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/controller/ProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/controller/RoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/entity/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/entity/DiningOutlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/entity/Experience.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/entity/Offer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/entity/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/exception/ApiException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/exception/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/exception/DuplicateResourceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/exception/ForbiddenException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/exception/UnauthorizedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/repository/BookingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/repository/DiningOutletRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/repository/ExperienceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/repository/OfferRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/repository/RoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/responseEntity/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/responseEntity/AuthResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/responseEntity/BookingResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/responseEntity/DiningRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/responseEntity/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/responseEntity/ExperienceRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/responseEntity/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/responseEntity/OfferRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/responseEntity/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/responseEntity/RoomRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/responseEntity/UserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/security/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/security/JwtAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/security/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/service/BookingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/service/DiningService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/service/ExperienceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/service/FileStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/service/OfferService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/service/RoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/serviceimpl/AuthServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/serviceimpl/BookingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/serviceimpl/DiningServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/serviceimpl/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/serviceimpl/ExperienceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/serviceimpl/OfferServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/serviceimpl/RoomServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/java/com/HotelBooking/serviceimpl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/src/test/java/com/HotelBooking/HotelBookingApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/HotelBookingApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/config/DataSeeder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/constants/AppConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/controller/BookingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/controller/DiningController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/controller/ExperienceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/controller/OfferController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/controller/ProfileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/controller/RoomController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/entity/Booking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/entity/DiningOutlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/entity/Experience.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/entity/Offer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/entity/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/exception/ApiException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/exception/BadRequestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/exception/DuplicateResourceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/exception/ForbiddenException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/exception/UnauthorizedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/repository/BookingRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/repository/DiningOutletRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/repository/ExperienceRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/repository/OfferRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/repository/RoomRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/responseEntity/ApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/responseEntity/AuthResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/responseEntity/BookingResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/responseEntity/DiningRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/responseEntity/ErrorResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/responseEntity/ExperienceRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/responseEntity/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/responseEntity/OfferRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/responseEntity/RegisterRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/responseEntity/RoomRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/responseEntity/UserResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/security/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/security/JwtAuthFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/security/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/service/AuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/service/BookingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/service/DiningService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/service/ExperienceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/service/FileStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/service/OfferService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/service/RoomService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/serviceimpl/AuthServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/serviceimpl/BookingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/serviceimpl/DiningServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/serviceimpl/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/serviceimpl/ExperienceServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/serviceimpl/OfferServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/serviceimpl/RoomServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/target/classes/com/HotelBooking/serviceimpl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/dining/167b4d6a-4b39-411c-934a-8fa24190a274.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/dining/1a6e0f41-324e-460d-acbd-ca0b22e71a5b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/dining/67447678-bf1b-4abf-b4bd-1586a497780e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/dining/7154017f-93f2-4edc-b576-c74e023132b7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/dining/c9f18ad4-50b4-4a7a-a45a-3c53baf03906.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/dining/d160df4e-6f3c-427c-ac4e-a1e1fc79c032.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/experiences/1e051945-1163-4c51-9d2a-5e9b5e5832f9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/experiences/5d139f0b-ea16-4b82-9840-abebd77d6371.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/experiences/78739bde-3b25-4024-a062-8e99a6ba0b5b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/experiences/807093d7-6e8e-4d71-b650-fa833defadde.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/experiences/861c7e98-7121-4235-9ee3-cf30943a3d54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/experiences/9fac6755-eaef-4071-9f7f-bb11554844ae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/gallery/0d2af345-d415-42ce-b7ec-86fa4ab85b7c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/gallery/1855eb88-1920-4851-a727-44fdcc52342c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/gallery/20a498c6-9f72-4def-8dd7-5880b5698bec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/gallery/24b28f4f-3c6e-49e0-b8a4-fe603c0497e7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/gallery/3deb9ce6-17f8-4e77-ba20-eff8ab139f28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/gallery/54ad86ed-e24d-4bab-8567-7109a4f386a6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/gallery/8ac3e159-db42-4474-89eb-1d3f83a5937a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/gallery/9bcbfb58-9b87-497b-a874-405230a34002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/gallery/adfde057-adf2-4805-bfc6-989c8dfa2f7f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/gallery/c578e71f-f4a0-4667-8b49-15a4688f2b5b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/gallery/d2a62a8a-72eb-4145-883f-f80c30334da8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/gallery/ee26f7c9-93f9-4a12-a332-0b1c02e7acb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/offers/12ba930c-8e37-4410-ab53-48df06815dc1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/offers/23401b72-21dc-4c04-93d2-e302024bf83a.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/offers/31971a71-7aee-4ef0-9f3c-d4c3bf2f9e7e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/offers/5609c39e-4d3e-449c-a72e-9a3fe9cb9423.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/offers/5e695f93-a88b-466e-a58d-a58cb24ebe94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/offers/8e0c6985-c502-43d4-866e-7a36eb808f6d.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/rooms/33e8204f-b70a-47ce-9103-ccfb0664486e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/rooms/4c368eff-0cb1-43f2-b286-8ac5a70c7de0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/rooms/732bdead-b5e9-4c10-aef6-b5b193512c46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/rooms/88938358-68c5-476c-8c39-aad9c43bd822.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/rooms/89fa59ef-7b43-4fcd-80e4-6554b19b6fd0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/rooms/9fb865e4-ee11-4be5-89dd-3ad22b6cedc5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/rooms/bf750bb3-555f-4815-8c2f-9c210e47ce63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/rooms/d92d3b64-47c4-4685-a149-1e9c6847eee2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Backend/uploads/rooms/e466870b-65ba-4c61-8436-773d2f4a001d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/booking/Hotelbookingpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/booking/Hotelbookingpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/booking/Hotelbookingpage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/booking/Hotelbookingpage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/dining/Dining.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/dining/Dining.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/experiences/Experiences.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/experiences/Experiences.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/experiences/Experiences.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/experiences/Experiences.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/offers/Offers.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/offers/Offers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/offers/Offers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/offers/Offers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/AdminLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/AdminLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/ContentManager.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/ContentManager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/ContentManager.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/ContentManager.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/adminSections.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/adminSections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/pages/AdminDashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/pages/AdminDashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/pages/Offers.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/sectionHooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/admin/sectionHooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/profile/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/profile/Profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/role/profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/rooms/Roomdetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/rooms/Roomdetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/rooms/Roomdetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/rooms/Roomdetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/rooms/RoomsSuites.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/rooms/RoomsSuites.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/rooms/RoomsSuites.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/component/rooms/RoomsSuites.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/constants/apiConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/constants/apiConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StayNest - Frontend/src/store/apiSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../StayNest - Frontend/src/store/apiSlice.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3I1oM0N7gCMqci9Yqz1gTkDYbvN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/sandh/Documents/New folder/StayNest Hotel/StayNest-Backend/src"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3eee000-d3eb-4ea6-83e6-9cf801adfe89" name="Changes" comment="" />
+      <created>1786941383549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786941383549</updated>
+    </task>
+    <servers />
+  </component>
+</project>

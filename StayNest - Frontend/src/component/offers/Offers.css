@@ -1,0 +1,373 @@
+
+.offers-page {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  color: #1a2340;
+  background: #faf8f4;
+}
+
+.offers-page a {
+  text-decoration: none;
+}
+
+
+.offers-hero {
+  position: relative;
+  height: 60vh;
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1800&q=80")
+    center / cover no-repeat;
+}
+
+.offers-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(26, 35, 64, 0.55) 0%,
+    rgba(26, 35, 64, 0.35) 50%,
+    rgba(26, 35, 64, 0.7) 100%
+  );
+}
+
+.offers-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  padding: 0 24px;
+  color: #ffffff;
+}
+
+.offers-hero-eyebrow {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #d8c08f;
+  margin-bottom: 18px;
+}
+
+.offers-hero-content h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.offers-hero-content p {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+
+.offers-intro {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 24px 10px;
+}
+
+.offers-intro p {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.9;
+  color: #4a5170;
+}
+
+
+.offers-list {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 48px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.offer-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 48px;
+  background: #ffffff;
+  box-shadow: 0 6px 24px rgba(26, 35, 64, 0.08);
+}
+
+.offer-card.reverse {
+  grid-template-columns: 1fr 1fr;
+}
+
+.offer-card.reverse .offer-image-wrap {
+  order: 2;
+}
+
+.offer-card.reverse .offer-info {
+  order: 1;
+}
+
+.offer-image-wrap {
+  height: 320px;
+  overflow: hidden;
+}
+
+.offer-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.offer-card:hover .offer-image {
+  transform: scale(1.05);
+}
+
+.offer-info {
+  padding: 32px 40px 32px 0;
+}
+
+.offer-card.reverse .offer-info {
+  padding: 32px 0 32px 40px;
+}
+
+.offer-badge {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 11.5px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #9a7c3f;
+  padding: 6px 14px;
+  margin-bottom: 16px;
+  margin-right: 10px;
+}
+
+.offer-type-tag {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 11.5px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #9a7c3f;
+  border: 1px solid #9a7c3f;
+  padding: 5px 13px;
+  margin-bottom: 16px;
+}
+
+.offer-info h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 14px;
+  color: #1a2340;
+}
+
+.offer-description {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5b6280;
+  margin-bottom: 14px;
+}
+
+.offer-price {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.offer-price-original {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #b0b4c2;
+  text-decoration: line-through;
+}
+
+.offer-price-final {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1a2340;
+}
+
+.offer-validity {
+  font-family: Arial, sans-serif;
+  font-size: 12.5px;
+  color: #8b8f9e;
+  margin-bottom: 24px;
+}
+
+.offer-btn {
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #1a2340;
+  padding: 12px 26px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.offer-btn:hover {
+  background: #9a7c3f;
+}
+
+
+.offers-cta {
+  background: #1a2340;
+  padding: 70px 24px;
+  text-align: center;
+}
+
+.offers-cta-content {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.offers-cta h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.offers-cta p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 28px;
+}
+
+.offers-cta-btn {
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #1a2340;
+  background: #ffffff;
+  padding: 14px 32px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.offers-cta-btn:hover {
+  background: #9a7c3f;
+  color: #ffffff;
+}
+
+
+@media (max-width: 860px) {
+  .offer-card,
+  .offer-card.reverse {
+    grid-template-columns: 1fr;
+  }
+  .offer-card.reverse .offer-image-wrap,
+  .offer-card.reverse .offer-info {
+    order: initial;
+  }
+  .offer-info,
+  .offer-card.reverse .offer-info {
+    padding: 28px 28px 32px;
+  }
+  .offer-image-wrap {
+    height: 260px;
+  }
+  .offers-list {
+    padding: 40px 24px 60px;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .offers-hero-content h1 {
+    font-size: 36px;
+  }
+}
+.offers-status {
+  text-align: center;
+  color: #8b8676;
+  padding: 24px 16px;
+  font-size: 15px;
+}
+
+.offers-empty {
+  max-width: 520px;
+  margin: 30px auto 90px;
+  padding: 48px 32px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 6px 24px rgba(26, 35, 64, 0.08);
+}
+
+.offers-empty-icon {
+  display: inline-block;
+  font-size: 28px;
+  color: #9a7c3f;
+  margin-bottom: 16px;
+}
+
+.offers-empty h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1a2340;
+  margin-bottom: 12px;
+}
+
+.offers-empty p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5b6280;
+  margin-bottom: 26px;
+}
+
+.offers-empty-actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.offers-empty-btn {
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #1a2340;
+  padding: 12px 24px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.offers-empty-btn:hover {
+  background: #9a7c3f;
+}
+
+.offers-empty-btn.outline {
+  background: transparent;
+  color: #1a2340;
+  border: 1px solid #1a2340;
+}
+
+.offers-empty-btn.outline:hover {
+  background: #1a2340;
+  color: #ffffff;
+}
+
+@media (max-width: 480px) {
+  .offers-empty {
+    margin: 20px 16px 60px;
+    padding: 36px 20px;
+  }
+}

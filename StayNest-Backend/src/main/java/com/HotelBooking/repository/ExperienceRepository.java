@@ -1,0 +1,7 @@
+package com.HotelBooking.repository;
+
+import com.HotelBooking.entity.Experience;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ExperienceRepository extends JpaRepository<Experience, Long> {
+}

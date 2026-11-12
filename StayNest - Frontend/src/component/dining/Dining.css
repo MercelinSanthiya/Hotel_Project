@@ -1,0 +1,613 @@
+
+.dining-page {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  color: #1a2340;
+  background: #faf8f4;
+}
+
+.dining-page a {
+  text-decoration: none;
+}
+
+.dining-page {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  color: #1a2340;
+  background: #faf8f4;
+}
+
+.dining-page a {
+  text-decoration: none;
+}
+
+
+.dining-hero {
+  position: relative;
+  height: 70vh;
+  min-height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1800&q=80")
+    center / cover no-repeat;
+}
+
+.dining-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(26, 35, 64, 0.55) 0%,
+    rgba(26, 35, 64, 0.35) 50%,
+    rgba(26, 35, 64, 0.7) 100%
+  );
+}
+
+.dining-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 640px;
+  padding: 0 24px;
+  color: #ffffff;
+}
+
+.dining-hero-eyebrow {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #d8c08f;
+  margin-bottom: 18px;
+}
+
+.dining-hero-content h1 {
+  font-size: 52px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.dining-hero-content p {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+
+.dining-intro {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 64px 24px 16px;
+}
+
+.dining-intro p {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.9;
+  color: #4a5170;
+}
+
+
+.dining-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  padding: 32px 24px 8px;
+}
+
+.filter-btn {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid #c9b88a;
+  color: #1a2340;
+  padding: 10px 26px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.filter-btn:hover {
+  border-color: #9a7c3f;
+}
+
+.filter-btn.active {
+  background: #9a7c3f;
+  border-color: #9a7c3f;
+  color: #ffffff;
+}
+
+
+.dining-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 48px 80px;
+}
+
+.venue-card {
+  background: #ffffff;
+  box-shadow: 0 6px 24px rgba(26, 35, 64, 0.08);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.venue-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(26, 35, 64, 0.14);
+}
+
+.venue-image-wrap {
+  position: relative;
+  height: 230px;
+  overflow: hidden;
+}
+
+.venue-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.venue-card:hover .venue-image {
+  transform: scale(1.06);
+}
+
+.venue-tag {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: rgba(26, 35, 64, 0.85);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 6px 12px;
+}
+
+.venue-info {
+  padding: 26px 26px 28px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.venue-info h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #1a2340;
+}
+
+.venue-description {
+  font-family: Arial, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: #5b6280;
+  margin-bottom: 18px;
+}
+
+.venue-meta {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 12.5px;
+  letter-spacing: 0.3px;
+  color: #1a2340;
+  margin-bottom: 22px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #ece7da;
+}
+
+.venue-meta li {
+  position: relative;
+  padding-left: 14px;
+}
+
+.venue-meta li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  background: #9a7c3f;
+  border-radius: 50%;
+}
+
+.venue-btn {
+  margin-top: auto;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #9a7c3f;
+  padding: 11px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.venue-btn:hover {
+  background: #7d6330;
+}
+
+
+.dining-cta {
+  background: #1a2340;
+  padding: 70px 24px;
+  text-align: center;
+}
+
+.dining-cta-content {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.dining-cta h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.dining-cta p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 28px;
+}
+
+.dining-cta-btn {
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #1a2340;
+  background: #ffffff;
+  padding: 14px 32px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dining-cta-btn:hover {
+  background: #9a7c3f;
+  color: #ffffff;
+}
+
+
+@media (max-width: 1024px) {
+  .dining-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 32px 70px;
+  }
+}
+
+@media (max-width: 720px) {
+  .dining-hero-content h1 {
+    font-size: 38px;
+  }
+  .dining-grid {
+    grid-template-columns: 1fr;
+    padding: 32px 20px 60px;
+  }
+}
+.dining-status {
+  text-align: center;
+  color: #8b8676;
+  padding: 24px 16px;
+  font-size: 15px;
+}
+
+.dining-hero {
+  position: relative;
+  height: 70vh;
+  min-height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1800&q=80")
+    center / cover no-repeat;
+}
+
+.dining-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(26, 35, 64, 0.55) 0%,
+    rgba(26, 35, 64, 0.35) 50%,
+    rgba(26, 35, 64, 0.7) 100%
+  );
+}
+
+.dining-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 640px;
+  padding: 0 24px;
+  color: #ffffff;
+}
+
+.dining-hero-eyebrow {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #d8c08f;
+  margin-bottom: 18px;
+}
+
+.dining-hero-content h1 {
+  font-size: 52px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.dining-hero-content p {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+
+.dining-intro {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 64px 24px 16px;
+}
+
+.dining-intro p {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.9;
+  color: #4a5170;
+}
+
+
+.dining-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  padding: 32px 24px 8px;
+}
+
+.filter-btn {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid #c9b88a;
+  color: #1a2340;
+  padding: 10px 26px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.filter-btn:hover {
+  border-color: #9a7c3f;
+}
+
+.filter-btn.active {
+  background: #9a7c3f;
+  border-color: #9a7c3f;
+  color: #ffffff;
+}
+
+
+.dining-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 48px 80px;
+}
+
+.venue-card {
+  background: #ffffff;
+  box-shadow: 0 6px 24px rgba(26, 35, 64, 0.08);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.venue-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(26, 35, 64, 0.14);
+}
+
+.venue-image-wrap {
+  position: relative;
+  height: 230px;
+  overflow: hidden;
+}
+
+.venue-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.venue-card:hover .venue-image {
+  transform: scale(1.06);
+}
+
+.venue-tag {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: rgba(26, 35, 64, 0.85);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 6px 12px;
+}
+
+.venue-info {
+  padding: 26px 26px 28px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.venue-info h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #1a2340;
+}
+
+.venue-description {
+  font-family: Arial, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: #5b6280;
+  margin-bottom: 18px;
+}
+
+.venue-meta {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 12.5px;
+  letter-spacing: 0.3px;
+  color: #1a2340;
+  margin-bottom: 22px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #ece7da;
+}
+
+.venue-meta li {
+  position: relative;
+  padding-left: 14px;
+}
+
+.venue-meta li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  background: #9a7c3f;
+  border-radius: 50%;
+}
+
+.venue-btn {
+  margin-top: auto;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #9a7c3f;
+  padding: 11px 20px;
+  transition: background 0.3s;
+}
+
+.venue-btn:hover {
+  background: #7d6330;
+}
+
+
+.dining-cta {
+  background: #1a2340;
+  padding: 70px 24px;
+  text-align: center;
+}
+
+.dining-cta-content {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.dining-cta h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.dining-cta p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 28px;
+}
+
+.dining-cta-btn {
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #1a2340;
+  background: #ffffff;
+  padding: 14px 32px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dining-cta-btn:hover {
+  background: #9a7c3f;
+  color: #ffffff;
+}
+
+
+@media (max-width: 1024px) {
+  .dining-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 32px 70px;
+  }
+}
+
+@media (max-width: 720px) {
+  .dining-hero-content h1 {
+    font-size: 38px;
+  }
+  .dining-grid {
+    grid-template-columns: 1fr;
+    padding: 32px 20px 60px;
+  }
+}
+.dining-status {
+  text-align: center;
+  color: #8b8676;
+  padding: 24px 16px;
+  font-size: 15px;
+}

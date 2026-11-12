@@ -1,0 +1,267 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --ink: #1c1b18;
+  --ink-soft: #2a2823;
+  --paper: #faf8f3;
+  --panel: #ffffff;
+  --brass: #a9832e;
+  --brass-soft: #efe4c4;
+  --line: #e7e2d6;
+  --text: #24221e;
+  --muted: #8b8676;
+  --danger: #b3462c;
+  --success: #4c6b4f;
+
+  --font-display: "Cormorant Garamond", serif;
+  --font-body: "Inter", -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.admin-shell {
+  display: flex;
+  min-height: 100vh;
+  background: var(--paper);
+  font-family: var(--font-body);
+  color: var(--text);
+}
+
+/* ---------- Sidebar ---------- */
+
+.admin-sidebar {
+  width: 250px;
+  flex-shrink: 0;
+  background: var(--ink);
+  color: #ece8de;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 18px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.admin-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.admin-brand-img {
+  height: 30px;
+  width: auto;
+}
+
+.admin-brand-name {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #f4f0e6;
+}
+
+.admin-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.admin-nav-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #837e6f;
+  margin: 18px 10px 8px;
+}
+
+.admin-nav-label:first-child {
+  margin-top: 4px;
+}
+
+.admin-nav-link {
+  position: relative;
+  display: block;
+  padding: 10px 14px 10px 16px;
+  border-radius: 6px;
+  color: #d8d3c4;
+  text-decoration: none;
+  font-size: 14.5px;
+  font-weight: 500;
+  border-left: 2px solid transparent;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.admin-nav-link:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #f4f0e6;
+}
+
+.admin-nav-link.active {
+  background: rgba(169, 131, 46, 0.16);
+  border-left: 2px solid var(--brass);
+  color: #f6efdb;
+}
+
+.admin-logout {
+  margin-top: 16px;
+  padding: 10px 14px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 6px;
+  color: #d8d3c4;
+  font-family: var(--font-body);
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.admin-logout:hover {
+  border-color: var(--brass);
+  color: #f4f0e6;
+}
+
+.admin-scrim {
+  display: none;
+}
+
+/* ---------- Main / topbar ---------- */
+
+.admin-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-topbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 28px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.admin-menu-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-menu-btn span {
+  height: 2px;
+  background: var(--text);
+  border-radius: 1px;
+}
+
+.admin-search {
+  flex: 1;
+  max-width: 340px;
+  padding: 9px 14px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  background: var(--paper);
+}
+
+.admin-search:focus {
+  outline: 2px solid var(--brass);
+  outline-offset: 1px;
+}
+
+.admin-profile {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.admin-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--brass);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+
+.admin-profile-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+
+.admin-profile-name {
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.admin-profile-role {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.admin-content {
+  padding: 28px;
+  flex: 1;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 900px) {
+  .admin-sidebar {
+    position: fixed;
+    left: -270px;
+    z-index: 30;
+    height: 100vh;
+    transition: left 0.2s ease;
+  }
+
+  .admin-sidebar.open {
+    left: 0;
+  }
+
+  .admin-scrim {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 20;
+  }
+
+  .admin-menu-btn {
+    display: flex;
+  }
+
+  .admin-search {
+    display: none;
+  }
+
+  .admin-content {
+    padding: 18px;
+  }
+}
